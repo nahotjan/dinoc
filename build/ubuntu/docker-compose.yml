@@ -1,0 +1,16 @@
+services:
+
+  plaso:
+    image: log2timeline/plaso
+
+  jupyter:
+    image: jupyter/minimal-notebook
+    build:
+      dockerfile: ./jupyter.Dockerfile
+    volumes:
+      ${EVIDENCES_PATH}:/evidences
+      ${INVESTIGATIONS_PATH}:/investigations
+    ports:
+      - 10000:8888
+    environment:
+      - JUPYTER_TOKEN=${JUPYTER_TOKEN}
