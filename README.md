@@ -1,5 +1,7 @@
 # DInOC
 
+PROJECT UNDER DEV, NOT WORKING ATM. PLEASE COME BACK LATER FOR v1 :)
+
 DINOC stands for **D**FIR **In**stead **O**f **C**onfigure.  
 The purpose of this project is to provide to Forensic analysts a ready to use DFIR environement in either:
   - On premise server (Ubuntu XX.XX)
